@@ -1,0 +1,83 @@
+html,body{
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+}
+
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-color: #1E1E1E;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    overflow: hidden;
+}
+.circle-main{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.little-circle1 {
+    width: 55px;
+    height: 51px;
+    position: absolute;
+    top: 10%;left: 20%;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(253, 200, 152, 1), rgba(181, 23, 255, 0.11) );
+}
+.little-circle2{
+    width: 55px;
+    height: 51px;
+    position: absolute;
+    top:80%;left: 12%;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(253, 200, 152, 1), rgba(181, 23, 255, 0.11) );
+}
+.little-circle3{
+    width: 55px;
+    height: 51px;
+    position: absolute;
+    top: 20%;left: 70%;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(253, 200, 152, 1), rgba(181, 23, 255, 0.11) );
+}
+.little-circle4{
+    width: 55px;
+    height: 51px;
+    position: absolute;
+    top: 70%;left: 72%;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgba(253, 200, 152, 1), rgba(181, 23, 255, 0.11) );
+}
+.navbar-column{
+    width: 100px;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+@media only screen and (max-width: 360px){
+    .navbar-column{
+        width: 80%;
+        height: 10vh;
+    }
+    .circle-main{
+        display: none;
+    }
+}
+@media  (min-width: 361px) and (max-width: 540px){
+    .navbar-column{
+        width: 80%;
+        height: 10vh;
+        box-sizing: border-box;
+    }
+    .circle-main{
+        display: none;
+    }
+}

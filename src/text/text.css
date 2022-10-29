@@ -1,0 +1,56 @@
+.textmain{
+    width: 25%;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.textmain div{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+#div-one{
+    font-weight: 300;
+    font-size: 72px;
+}
+#div-two{
+    line-height: 18px;
+}
+@media only screen and (max-width: 360px){
+    .textmain{
+        width: 80%;
+    }
+    #div-one{
+        font-weight: 300;
+    font-size: 36px;
+    }
+    #div-two{
+        font-size: 16px;
+    }
+}
+@media (min-width: 361px) and (max-width: 540px){
+    .textmain{
+        width: 70%;
+    }
+    #div-one{
+        font-weight: 300;
+    font-size: 36px;
+    }
+    #div-two{
+        font-size: 16px;
+    }
+}
+@media (min-width: 541px) and (max-width: 720px){
+    .textmain{
+        width: 50%;
+    }
+    #div-one{
+        font-weight: 300;
+    font-size: 36px;
+    }
+    #div-two{
+        font-size: 16px;
+    }
+}
